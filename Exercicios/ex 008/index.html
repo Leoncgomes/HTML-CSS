@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatação de texto</title>
+    <style>
+        mark{
+            background-color: limegreen;
+        }
+    </style>
+</head>
+<body>
+    <h1>Principais formatações</h1>
+    <h2>Negrito / Destaque</h2>
+    <p>Nesta frase, temos um <b>termo em Negrito</b> usando a tag &lt;b&gt; (Não Semantica)</p><!--Apenas em negrito sem significado com a tag <b>-->
+    <p>Nesta frase, temos um <strong>termo em Destaque</strong> usando a tag &lt;strong&gt; (Semantica)</p><!--Deixa em Destaque de forma forte com a tag <strong>-->
+    <h2>Italico / Enfase</h2>
+    <p>Nesta frase, temos um <i>termo em Italico</i> usando a tag &lt;i&gt; (não Semantico)</p><!--Apenas em italico sem significado com a tag <i>-->
+    <p>Nesta frase, temos um <em>termo em Enfase</em> usando a tag &lt;em&gt; (Semantica)</p><!--Deixa em Enfase de forma italico com a tag <em>-->
+    <h2>Texto marcado</h2>
+    <p>Podemos criar também um <mark>texto marcado</mark> com a tag &lt;mark&gt;</p><!--Deixa o texto marcado como um marcador de texto com a tag <mark> Obs: ate o momento a tag <mark> não é reconhecida no VSCode--><!--Para por uma cor diferente na marcação ulitizei o parametro style="backgroud-color: cor desejada;"" que se refere a um comando CSS -->
+    <h2>Tecto grande e pequeno</h2>
+    <p>Estamos criando um <big>texto grande</big> e um <small>texto pequeno</small> neste paragrafo.</p><!--A tag <big> se tornou obsoleta por não ter significado e sim ser um estilo, ja a tag <small> não porque ela possui um certo significado-->
+    <h2>Texto deletado</h2>
+    <p>Podemos marcar um <del>texto como excluido</del> para indicar que ele deve ser lido, mas não considerado.</p><!--Usando a tag <del> para indicar que o texto não é para ser considerado-->
+    <h2>Texto inserido</h2>
+    <p>Podemos marcar um <ins>texto como incluido</ins> para dar uma énfase e indicar que ele foi adicionado depois</p><!--Usando a tag <ins> para indicar que o texto foi incluido-->
+    <p>Existe tambem o <u>sublinhado</u> com a tag &lt;u&gt; (não semantica)</p><!--A tag <u> apenas sublinha o texto-->
+    <h2>Texto sobrescrito</h2>
+    <p>Para insertir coisas do tipo x<sup>20</sup>+3</p><!--A Tag <sup> indica a letra ou numero indicado viro algo parecido com potecia-->
+    <h2>Texto subscrito</h2>
+    <p>Para inserir coisas do tipo H<sub>2</sub>O</p><!--A tag <sup> indica que a letra ou o numero indicado fique mais em baixo como a formula da água-->
+</body>
+</html>
