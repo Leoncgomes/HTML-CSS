@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Meu primeiro Formulario</h1>
+    <form action="formulario.php" method="post" autocomplete="off"> <!-- Autocomplete="off" serve para desligar a barra com as informações ja digitadas, action="cadastro.php" serve para enviar dados, method="post" oculta os dados na url -->
+        <p>
+            <label for="inome">Nome:</label> <!-- Label cria uma relação entre a palavra e a caixa "input" -->
+            <input type="text" name="Nome" id="inome">
+        </p>
+        <p>
+            <label for="isobrenome">Sobrenome:</label> 
+            <input type="text" name="Sobrenome" id="isobrenome">
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+        </p>
+    </form>
+</body>
+</html>
