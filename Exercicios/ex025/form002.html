@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario 002</title>
+</head>
+<body>
+    <h1>Teste de formulario</h1>
+    <form action="formulario.php" method="post" autocomplete="on">
+        <p>
+            <label for="iusuario">Usuario: </label>
+            <input type="text" name="usuario" id="iusuario" required minlength="5" placeholder="Nome do Usuario" autocomplete="username"> 
+            <!-- 
+            Required- requisito obrigatorio preencher os campo vazio, minlength="5" comprimento minimo de caracteres, placeholder serve para aparecer nome sugerido do q deve ser preenchido, autocomplete diz oque a caixa de texto é exemplo se é pra id, senha, email etc 
+             -->
+        </p>
+        <p>
+            <label for="isenha">Senha: </label >
+            <input type="password" name="senha" id="isenha" required minlength="6" maxlength="16" placeholder="Senha" autocomplete="current-password"> 
+            <!-- 
+            Required- requisito obrigatorio preencher os campo vazio, minlength="5" comprimento minimo de caracteres, maxlength="16" comprimento maximo de caracteres, placeholder serve para aparecer nome sugerido do q deve ser preenchido autocomplete diz oque a caixa de texto é exemplo se é pra id, senha, email etc 
+            -->
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+    
+</body>
+</html>
